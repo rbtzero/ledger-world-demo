@@ -1,0 +1,4 @@
+Tc_K:       {value: 310, tol: 10}
+resistivity_uOhm_cm: {value: 0.001, tol: 0.0005}
+Meissner_lift_mm: {value: 0.5, tol: 0.1}
+Jc_A_per_cm2: {value: 1.0e7, tol: 2.0e6} 
