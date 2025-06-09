@@ -6,7 +6,7 @@ import sys, re, pathlib
 VAL = {'B':3, 'N':3, 'C':4, 'H':1}
 
 def atoms_from_cif(path):
-    pat = re.compile(r'^\s*\w+\s+([A-Z][a-z]?)\s')
+    pat = re.compile(r'^\s*([A-Z][a-z]?)\s+\w+\s+')
     atoms=[]
     for ln in open(path):
         m = pat.match(ln);  atoms.append(m.group(1)) if m else None
