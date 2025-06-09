@@ -1,0 +1,8 @@
+&INPUTPH
+  prefix = 'BNCH4',
+  outdir = './tmp',
+  fildyn = 'BNCH4.dyn',
+  ldisp = .true.,
+  nq1 = 6, nq2 = 6, nq3 = 1,
+  tr2_ph = 1.0d-14,
+/ 

@@ -1,0 +1,34 @@
+&CONTROL
+  calculation = 'scf',
+  prefix      = 'BNCH4',
+  outdir      = './tmp',
+  pseudo_dir  = '~/pseudos'
+/
+&SYSTEM
+  ibrav = 0, nat = 8, ntyp = 4,
+  ecutwfc = 70, ecutrho = 560,
+  occupations = 'smearing', smearing = 'mp', degauss = 0.01
+/
+&ELECTRONS
+  mixing_beta = 0.3, conv_thr = 1.0d-8
+/
+CELL_PARAMETERS angstrom
+ 5.000 0.000 0.000
+ 0.000 5.000 0.000
+ 0.000 0.000 15.000
+ATOMIC_SPECIES
+ B 10.811 B.pbe-n-kjpaw_psl.1.0.0.UPF
+ N 14.007 N.pbe-n-kjpaw_psl.1.0.0.UPF
+ C 12.011 C.pbe-n-kjpaw_psl.1.0.0.UPF
+ H  1.008 H.pbe-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+ B 0.00 0.00 0.50
+ C 0.50 0.00 0.50
+ N 0.50 0.50 0.50
+ C 0.00 0.50 0.50
+ H 0.00 0.00 0.43
+ H 0.50 0.00 0.43
+ H 0.50 0.50 0.43
+ H 0.00 0.50 0.43
+K_POINTS automatic
+ 24 24 1  0 0 0 
