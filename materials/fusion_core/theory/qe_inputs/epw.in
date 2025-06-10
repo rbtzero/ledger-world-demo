@@ -1,0 +1,36 @@
+&inputepw
+  prefix = 'BNCH4'
+  outdir = './tmp'
+  
+  ep_coupling = .true.
+  elph = .true.
+  
+  nkf1 = 120
+  nkf2 = 120  
+  nkf3 = 12
+  
+  nqf1 = 60
+  nqf2 = 60
+  nqf3 = 6
+  
+  nk1 = 24
+  nk2 = 24
+  nk3 = 1
+  
+  nq1 = 6
+  nq2 = 6
+  nq3 = 1
+  
+  degaussw = 0.01
+  fsthick = 0.4
+  
+  eps_acustic = 2.0
+  ephwrite = .true.
+  
+  wannierize = .true.
+  num_iter = 1500
+  dis_froz_max = 8.5
+  proj = 'B:sp3;N:sp3;C:sp3'
+  
+  iverbosity = 2
+/ 

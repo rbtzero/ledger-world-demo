@@ -1,0 +1,5 @@
+pocket_Bfield_T:    {value: 240, tol: 30}
+alpha_flux_cm2s:    {value: 3e10, tol: 5e9}
+water_dT_C_15min:   {value: 9, tol: 1}
+Tc_K:               {value: 310, tol: 10}
+resistivity_uOhmcm: {value: 0.001, tol: 0.0005}
