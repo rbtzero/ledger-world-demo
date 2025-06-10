@@ -1,0 +1,6 @@
+# GDS Placeholder for Knot Chessboard Pattern
+# 5 µm pitch squares with alternating square and heptagon openings
+# Square openings for positive Ricci curvature voxels
+# Heptagon openings for negative Ricci curvature voxels
+# Includes alignment marks and pitch specifications
+# TODO: Replace with actual GDS layout data after CAD step
