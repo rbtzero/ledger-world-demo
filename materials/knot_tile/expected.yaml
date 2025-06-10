@@ -1,0 +1,4 @@
+pocket_B_T:          {value: 5, tol: 1}      # local B in squares
+Ricci_grad_m2:       {value: 9e32, tol: 1e32}
+atom_phase_rad:      {value: 0.4, tol: 0.05}
+levitation_gap_mm:   {value: 5, tol: 1}
